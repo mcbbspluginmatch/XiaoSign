@@ -5,6 +5,7 @@ FailReload: "&6[&bXiaoSign&6]&c重载失败!请前往控制台查看报错."
 NullPlayer: "&6[&bXiaoSign&6]&c玩家不存在或不在线."
 NeedPlayer: "&6[&bXiaoSign&6]&c只有玩家才能执行该操作."
 PlayerInventoryFull: "&6[&b每日签到&6]&c签到失败.&7(原因:背包空间不足,请清理后再签到)"
+PlayerAlreadySign: "&6[&b每日签到&6]&c签到失败.&7(原因:已签到)"
 NoVexView: "&6[&bXiaoSign&6]&c本服务器没有安装VexView."
 Info:
   - "&6[&b每日签到&6]&a<player>信息:"

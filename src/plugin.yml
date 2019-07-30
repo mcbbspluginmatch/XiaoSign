@@ -1,6 +1,6 @@
 name: XiaoSign
 main: zbv5.cn.XiaoSign.Main
-version: 1.0.0
+version: 1.0.1
 softdepend: [PlaceholderAPI,VexView]
 commands:
   XiaoSign:
