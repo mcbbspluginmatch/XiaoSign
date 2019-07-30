@@ -1,0 +1,21 @@
+name: XiaoSign
+main: zbv5.cn.XiaoSign.Main
+version: 1.0.0
+softdepend: [PlaceholderAPI,VexView]
+commands:
+  XiaoSign:
+    description: XiaoSign Command.
+    aliases: [xsign,qd]
+permissions:
+  XiaoSign.open.inv:
+    description: 允许玩家打开inv签到页面.
+    default: true
+  XiaoSign.open.vv:
+    description: 允许玩家打开VexView签到页面.
+    default: true
+  XiaoSign.info:
+    description: 允许查看玩家数据.
+    default: op
+  XiaoSign.reload:
+    description: 允许玩家重置插件配置文件.
+    default: op

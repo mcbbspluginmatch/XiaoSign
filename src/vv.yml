@@ -1,0 +1,208 @@
+Sign:
+  AlreadySign: "https://ae01.alicdn.com/kf/H0e03c79e00954d4b9ba3e5291325d361t.png"
+  NotSign: "https://ae01.alicdn.com/kf/Hbde31d93f78145bc9966a62a218dfc6bF.png"
+  PastSign: "https://ae01.alicdn.com/kf/H0e03c79e00954d4b9ba3e5291325d361t.png"
+  PastNotSign: "https://ae01.alicdn.com/kf/H193e108b656c4abdac1cb5176bf6bf87C.png"
+  Site:
+    1:
+      X: 5
+      Y: 160
+    2:
+      X: 65
+      Y: 160
+    3:
+      X: 125
+      Y: 160
+    4:
+      X: 185
+      Y: 160
+    5:
+      X: 245
+      Y: 160
+    6:
+      X: 305
+      Y: 160
+    7:
+      X: 365
+      Y: 160
+#VexView ui设置
+Url: "https://ae01.alicdn.com/kf/H8e8873f333a74643833cf822af7cee412.png"
+X: -1
+Y: -1
+Width: 420
+High: 200
+#是否加载玩家模型
+PlayerDraw:
+  Enable: false
+  X: 100
+  Y: 80
+  Scale: 25
+Text:
+  Enable: true
+  List:
+    玩家信息:
+      List:
+        - "&a&l玩家:&f%player_name%"
+        - "&e&l本周签到次数:&f<weekex>"
+        - "&e&l本月签到次数:&f<monthex>"
+        - "&c&l总共签到次数:&f<ex>"
+        - "&b&l今天是:&3<today>"
+      X: 175
+      Y: 35
+    Sign1:
+      Sign: true
+      SignWeekDay: 1
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 10
+      Y: 100
+    Sign2:
+      Sign: true
+      SignWeekDay: 2
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 70
+      Y: 100
+    Sign3:
+      Sign: true
+      SignWeekDay: 3
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 130
+      Y: 100
+    Sign4:
+      Sign: true
+      SignWeekDay: 4
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 190
+      Y: 100
+    Sign5:
+      Sign: true
+      SignWeekDay: 5
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 250
+      Y: 100
+    Sign6:
+      Sign: true
+      SignWeekDay: 6
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 310
+      Y: 100
+    Sign7:
+      Sign: true
+      SignWeekDay: 7
+      List:
+        - " &e&l<day>"
+        - "<date>"
+        - " <info>"
+      X: 370
+      Y: 100
+Image:
+  Enable: true
+  List:
+    Logo:
+      Url: "https://ae01.alicdn.com/kf/H0b338732a09a4b51b0f627ed3db31121f.png"
+      HoverText: []
+      X: 170
+      Y: 10
+      XS: 80
+      YS: 25
+    Sign1:
+      Sign: true
+      SignWeekDay: 1
+      HoverText: []
+      X: 0
+      Y: 80
+      XS: 60
+      YS: 80
+    Sign2:
+      Sign: true
+      SignWeekDay: 2
+      HoverText: []
+      X: 60
+      Y: 80
+      XS: 60
+      YS: 80
+    Sign3:
+      Sign: true
+      SignWeekDay: 3
+      HoverText: []
+      X: 120
+      Y: 80
+      XS: 60
+      YS: 80
+    Sign4:
+      Sign: true
+      SignWeekDay: 4
+      HoverText: []
+      X: 180
+      Y: 80
+      XS: 60
+      YS: 80
+    Sign5:
+      Sign: true
+      SignWeekDay: 5
+      HoverText: []
+      X: 240
+      Y: 80
+      XS: 60
+      YS: 80
+    Sign6:
+      Sign: true
+      SignWeekDay: 6
+      HoverText: []
+      X: 300
+      Y: 80
+      XS: 60
+      YS: 80
+    Sign7:
+      Sign: true
+      SignWeekDay: 7
+      HoverText: []
+      X: 360
+      Y: 80
+      XS: 60
+      YS: 80
+Button:
+  Enable: true
+  List:
+    close:
+      Name: ""
+      HoverText:
+        - "关闭"
+      ID: 1100
+      Url1: "https://ae01.alicdn.com/kf/H14b4fbc0c3164e06bbdb9a478c2e26991.png"
+      Url2: "https://ae01.alicdn.com/kf/H14b4fbc0c3164e06bbdb9a478c2e26991.png"
+      X: 400
+      Y: 10
+      W: 15
+      H: 15
+      Run:
+        - "[close]"
+    sign:
+      Sign: true
+      Name: "签到"
+      HoverText:
+        - "点击签到"
+      ID: 1101
+      Url1: "https://ae01.alicdn.com/kf/Hd17fad0c7e19481aab604b289ddb7d2al.png"
+      Url2: "https://ae01.alicdn.com/kf/H5d41b75f34f94206afe701fb32610471W.png"
+      W: 50
+      H: 16
+      Run:
+        - '[sign]'

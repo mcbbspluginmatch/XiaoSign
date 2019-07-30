@@ -1,0 +1,52 @@
+#储存方式: Yml Mysql
+Store: Yml
+#数据库配置
+Mysql:
+  Url: "jdbc:mysql://127.0.0.1:3306/db?useSSL=false"
+  User: "root"
+  PassWord: "root"
+SignReward:
+  EveryDay:
+    default:
+      NeedSlot: 1
+      NeedPermission: 'XiaoSign.sign.default'
+      priority: 99999
+      Reward:
+        - '[console]give <player> 1 1'
+        - '[message]&a&6[&b每日签到&6]&a签到成功,奖励已发送至你的背包.'
+    vip:
+      NeedSlot: 1
+      NeedPermission: 'XiaoSign.sign.vip'
+      priority: 9999
+      Reward:
+        - '[console]give <player> 1 1'
+        - '[message]&a&6[&b每日签到&6]&c尊贵的会员玩家,您已签到成功!奖励已发送至你的背包.'
+  RewardWeekEx:
+    Enable: false
+    List:
+      7:
+        NeedSlot: 1
+        Reward:
+          - '[console]give <player> 1 1'
+          - '[message]&a&6[&b每日签到&6]&a签到成功,奖励已发送至你的背包.'
+  RewardMonthEx:
+    Enable: false
+    List:
+      15:
+        NeedSlot: 1
+        Reward:
+          - '[console]give <player> 1 1'
+          - '[message]&a&6[&b每日签到&6]&a签到成功,奖励已发送至你的背包.'
+      30:
+        NeedSlot: 1
+        Reward:
+          - '[console]give <player> 1 1'
+          - '[message]&a&6[&b每日签到&6]&a签到成功,奖励已发送至你的背包.'
+  RewardAllEx:
+    Enable: false
+    List:
+      365:
+        NeedSlot: 1
+        Reward:
+          - '[console]give <player> 1 1'
+          - '[message]&a&6[&b每日签到&6]&a签到成功,奖励已发送至你的背包.'

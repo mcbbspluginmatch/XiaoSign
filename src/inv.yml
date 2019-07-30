@@ -1,0 +1,130 @@
+SignItem:
+  AlreadySign:
+    material: 35
+    data: 5
+    display_name: '&e&l<day>'
+    Lore:
+      - "&8<date>"
+      - ""
+      - "&a&l✔ &7已经完成签到"
+    click:
+      - '[close]'
+      - '[message]&6[&b每日签到&6]&c你今天已经签过到了.'
+  NotSign:
+    material: 35
+    data: 1
+    display_name: '&e&l<day>'
+    Lore:
+      - "&8<date>"
+      - ""
+      - "&e&l☀ &3可签到"
+    click:
+      #- '[close]'
+      - '[sign]'
+  PastSign:
+    material: 35
+    data: 5
+    display_name: '&e&l<day>'
+    Lore:
+      - "&8<date>"
+      - ""
+      - "&a&l✔ &7已经完成签到"
+    click:
+      - '[close]'
+      - '[message]&6[&b每日签到&6]&c你过去已经签过到了.'
+  PastNotSign:
+    material: 35
+    data: 14
+    display_name: '&e&l<day>'
+    Lore:
+      - "&8<date>"
+      - ""
+      - "&c&l✘ &c已过期"
+    click:
+      - '[close]'
+      - '[message]&6[&b每日签到&6]&c往日一去不复返.'
+
+
+Title: "&8每日签到"
+size: 27
+items:
+  Sign-1:
+    Sign: true
+    SignWeekDay: 1
+    slots:
+      - 10
+  Sign-2:
+    Sign: true
+    SignWeekDay: 2
+    slots:
+      - 11
+  Sign-3:
+    Sign: true
+    SignWeekDay: 3
+    slots:
+      - 12
+  Sign-4:
+    Sign: true
+    SignWeekDay: 4
+    slots:
+      - 13
+  Sign-5:
+    Sign: true
+    SignWeekDay: 5
+    slots:
+      - 14
+  Sign-6:
+    Sign: true
+    SignWeekDay: 6
+    slots:
+      - 15
+  Sign-7:
+    Sign: true
+    SignWeekDay: 7
+    slots:
+      - 16
+  PlayerInfo:
+    material: 397
+    data: 3
+    amount: 1
+    Sign: false
+    display_name: '&c&l说明 &e>>'
+    Lore:
+      - "&7玩家 &6<player>"
+      - "&7累计签到 &a<ex>次"
+      - ''
+      - '&e&l签到奖励:'
+      - '&8- &a屠龙大宝刀'
+    slots:
+      - 4
+    click:
+      - '[close]'
+  Placeholder:
+    material: 160
+    data: 15
+    amount: 1
+    Sign: false
+    display_name: '&r'
+    Lore: []
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    click:
+      - '[close]'

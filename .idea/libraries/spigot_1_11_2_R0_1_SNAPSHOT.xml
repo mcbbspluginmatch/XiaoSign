@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="spigot-1.11.2-R0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Lib/spigot-1.11.2-R0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Lib/PlaceholderAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Lib/spigot-1.11.2-R0.1-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="XiaoSign:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/XiaoSign_jar</output-path>
+    <root id="archive" name="XiaoSign.jar">
+      <element id="module-output" name="XiaoSign" />
+    </root>
+  </artifact>
+</component>
