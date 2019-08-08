@@ -137,6 +137,7 @@ public class VvInv
                         {
                             VexButton vb = new VexButton(Button.getInt("ID") , Button.getString("Name"), Button.getString("Url1"),Button.getString("Url2"),Button.getInt("X"),Button.getInt("Y"), Button.getInt("W"), Button.getInt("H"), new ButtonFunction()
                             {
+                                //为什么不尝试lambda？
                                 @Override
                                 public void run(Player p)
                                 {
